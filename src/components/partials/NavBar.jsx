@@ -11,7 +11,7 @@ export default function Navbar() {
                     <Link to='/martialartists'>All Martial Artists</Link>    
                 </li>
                 <li>
-                    <Link to='/martialartists/new'>Create Martial Artist</Link>    
+                    <Link to='/martialartist/new'>Create Martial Artist</Link>    
                 </li>
             </ul>
         </nav>

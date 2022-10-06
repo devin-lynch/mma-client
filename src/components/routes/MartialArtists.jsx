@@ -29,7 +29,7 @@ export default function MartialArtists() {
     const martialArtistLinks = martialArtist.map(artist => {
         return (
             <div key={artist._id}>
-                <Link to={`/martialartists/${artist._id}`}>
+                <Link to={`/martialartist/${artist._id}`}>
                     {artist.name}
                 </Link>
             </div>

@@ -24,15 +24,15 @@ function App() {
             element={<MartialArtists />}
           />
           <Route
-            path='/martialartists/new'
+            path='/martialartist/new'
             element={<NewMartialArtist/>}
           />
           <Route
-            path='/martialartists/:id'
+            path='/martialartist/:id'
             element={<MartialArtist />}
           />
           <Route
-            path='/martialartists/:id/edit'
+            path='/martialartist/:id/edit'
             element={<EditMartialArtist />}
           />          
         </Routes>
